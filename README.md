@@ -14,7 +14,7 @@ Nationality: Indonesian (Singapore PR)
 <!-- Add link to your picture -->
 
 
-<img src="https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/d78af5609026ef95cf3a84750b4ded6ef1170f7e/Picture.jpg" alt="alt text" width="200" height="270">
+<img src="https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/Picture.jpg" alt="alt text" width="200" height="270">
 
 
 <!-- Add your details -->
