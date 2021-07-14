@@ -95,9 +95,11 @@ The lead engineer responsible for visualisation design of construction sequence 
 ## SKILLS
 <!-- Add your details -->
 ##### Computer skills 
-TSQL (basic), Python (basic), Pandas (basic), Power BI
+TSQL, Python (Pandas, Scikit), Power BI
 ##### Engineering Software 
 AutoCAD, Etabs, SAFE, Tedds, SAP2000, PLAXIS 2D, SIDRA, VISUM
+##### Media Skills
+Photography, audio recording & editing
 ##### Language
 Fluent in English and Bahasa Indonesia 
 
