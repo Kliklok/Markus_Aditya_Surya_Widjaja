@@ -1,8 +1,9 @@
 <!-- CONTACT Section Starts -->
-### CONTACT
+### PROFILE
 
 <!-- Add your details -->
-✉️: markus.widjaja@yahoo.com
+Nationality: Indonesian (Singapore PR)
+&nbsp;&nbsp; ✉️: markus.widjaja@yahoo.com
 &nbsp;&nbsp; 📲 +65-82476899
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/markus-aditya-surya-widjaja-499b00113/) 
 
@@ -30,7 +31,7 @@ I am __Markus Aditya Surya Widjaja__, a data analyst trainee/ civil engineer wit
 
 <!-- EDUCATION Section Starts -->
 
-# EDUCATION
+### EDUCATION
 <!-- Add your details -->
 ##### RISE by BCG (Business and Data Analytics Specialisation)                       
 Mar 2021- Sep 2021: 6 months (Ongoing)
@@ -49,22 +50,26 @@ Aug 2012 – Jul 2016: 4 years
 <!-- EDUCATION Section Ends -->
 
 <!-- PROJECTS Section Starts -->
-# PROJECTS
+### PROJECTS
 <!-- Add your details -->
+I'm doing some data related projects to slowly build my portfolio.
 
-#### Classification based projects
-![alt text](https://raw.githubusercontent.com/krvishwesh54/Kumar-Vishwesh/main/images/Classification.png)
+#### Visualisation and data wrangling projects
 
-In machine learning, classification refers to a predictive modeling problem where a class label is predicted for a given example of input data.
+###### Formula One: Track & Thrill
+A simple passion project on visualising Formula One data to find out where the most exciting race locations are, for fans, teams and drivers alike.
+Tools used: Python (Pandas), Power BI
+Dataset: Kaggle.com
 
-[Click here to view codebase](https://github.com/krvishwesh54/DataScience_DeepLearning_MachineLearning/tree/master/Classification)
+![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/Projects/F1/F1%20Most%20Exciting%20Circuit.png)
+![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/Projects/F1/Team%20wins%20per%20circuit.png)
+![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/Projects/F1/Driver%20wins%20per%20circuit.png)
+![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/Projects/F1/Points%20won%20per%20circuit.png)
 
-#### Regression based projects
-![alt text](https://raw.githubusercontent.com/krvishwesh54/Kumar-Vishwesh/main/images/Regression.jpg)
+Learning points: Wrangling the data frame too much makes the visualisation in Power BI inflexible as the relation between the aggregated values and the different IDs is lost
+On the other hand, Power BI is unable to sort values within partition/groupby column, as the 'Top N' filter function is applied before the data aggregation in the chart i.e. instead of showing the constructor with the highest number of win (Top N=1) for each circuit, it is showing the constructor with the highest number of win (Top N=1) throughout ALL circuits and then, its number of win for each respective circuit.
 
-Regression is a supervised learning technique which helps in finding the correlation between variables and enables us to predict the continuous output variable based on the one or more predictor variables.
-
-[Click here to view codebase](https://github.com/krvishwesh54/DataScience_DeepLearning_MachineLearning/tree/master/Regression)
+[Click here to view codebase](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/Projects/F1)
 
 <!-- PROJECTS Section Ends -->
 
@@ -89,9 +94,11 @@ The lead engineer responsible for visualisation design of construction sequence 
 <!-- FEATURED Section Starts -->
 ## SKILLS
 <!-- Add your details -->
-##### Certifications
-Machine Learning by Columbia University
+##### Computer skills 
+TSQL (basic), Python (basic), Pandas (basic), Power BI
+##### Engineering Software 
+AutoCAD, Etabs, SAFE, Tedds, SAP2000, PLAXIS 2D, SIDRA, VISUM
+##### Language
+Fluent in English and Bahasa Indonesia 
 
-##### Achievements
-Star performer of the year at Accenture
 <!-- FEATURED Section Ends -->
