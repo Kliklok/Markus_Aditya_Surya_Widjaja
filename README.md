@@ -57,7 +57,7 @@ I'm doing some data related projects to slowly build my portfolio.
 #### Visualisation and data wrangling projects
 
 ###### Formula One: Track & Thrill
-A simple passion project on visualising Formula One data to find out where the most exciting race locations are, for fans, teams and drivers alike.
+A simple passion project on visualising Formula One data to find out where the most exciting race locations are. For fans, teams and drivers alike.
 Tools used: Python (Pandas), Power BI
 Dataset: Kaggle.com
 
