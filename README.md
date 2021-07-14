@@ -61,6 +61,7 @@ A simple passion project on visualising Formula One data to find out where the m
 Tools used: Python (Pandas), Power BI
 Dataset: Kaggle.com
 
+The charts below visualise the data of F1 races between 2017 season to 2021 season (up to Austrian GP) by using a slicer for race year. The dataset itself contains race results from 1950 to 2021. 
 ![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/F1%20Most%20Exciting%20Circuit.png)
 ![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/Team%20wins%20per%20circuit.png)
 ![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/Driver%20wins%20per%20circuit.png)
@@ -69,7 +70,7 @@ Dataset: Kaggle.com
 Learning points: Wrangling the data frame too much makes the visualisation in Power BI inflexible as the relation between the aggregated values and the different IDs is lost
 On the other hand, Power BI is unable to sort values within partition/groupby column, as the 'Top N' filter function is applied before the data aggregation in the chart i.e. instead of showing the constructor with the highest number of win (Top N=1) for each circuit, it is showing the constructor with the highest number of win (Top N=1) throughout ALL circuits and then, its number of win for each respective circuit.
 
-[Click here to view codebase](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/Projects/F1)
+[Click here to view codebase, pbix file and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/Projects/F1)
 
 <!-- PROJECTS Section Ends -->
 
