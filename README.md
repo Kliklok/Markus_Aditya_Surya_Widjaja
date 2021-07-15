@@ -56,11 +56,11 @@ I'm doing some data related projects to slowly build my portfolio.
 #### Visualisation and data wrangling projects
 
 ###### Formula One: Track & Thrill
-A simple passion project on visualising Formula One data to find out where the most exciting race locations are. For fans, teams and drivers alike.
-Tools used: Python (Pandas), Power BI
-Dataset: Kaggle.com
+A simple passion project on visualising Formula One data to find out where the most exciting race locations are. For fans, teams and drivers alike.<br>
+Tools used: Python (Pandas), Power BI<br>
+Dataset: Kaggle.com<br>
 
-The charts below visualise the data of F1 races between 2017 season to 2021 season (up to Austrian GP) by using a slicer for race year. The dataset itself contains race results from 1950 to 2021. 
+The charts below visualise the data of F1 races between 2017 season to 2021 season (up to Austrian GP) by using a slicer for race year. The dataset itself contains race results from 1950 to 2021. <br>
 ![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/F1%20Most%20Exciting%20Circuit.png)
 ![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/Team%20wins%20per%20circuit.png)
 ![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/Driver%20wins%20per%20circuit.png)
