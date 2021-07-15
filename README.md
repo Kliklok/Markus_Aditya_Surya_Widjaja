@@ -53,7 +53,7 @@ Aug 2012 – Jul 2016: 4 years
 <!-- Add your details -->
 I'm doing some data related projects to slowly build my portfolio.
 
-#### Visualisation and data wrangling projects
+#### Visualisation and data wrangling project
 
 ###### Formula One: Track & Thrill
 A simple passion project on visualising Formula One data to find out where the most exciting race locations are. For fans, teams and drivers alike.<br>
