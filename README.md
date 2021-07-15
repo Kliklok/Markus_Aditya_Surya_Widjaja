@@ -4,7 +4,6 @@
 <!-- Add your details -->
 Nationality: Indonesian (Singapore PR)
 &nbsp;&nbsp; ✉️: markus.widjaja@yahoo.com
-&nbsp;&nbsp; 📲 +65-82476899
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/markus-aditya-surya-widjaja-499b00113/) 
 
 <!-- CONTACT Section Ends -->
