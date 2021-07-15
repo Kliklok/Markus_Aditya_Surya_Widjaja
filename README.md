@@ -12,7 +12,7 @@ Nationality: Indonesian (Singapore PR)
 ### ABOUT
 <!-- Add link to your picture -->
 
-Access-Control-Allow-Origin: https://github.com
+
 <img src="https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/Picture.jpg" alt="alt text" width="200" height="270">
 
 
