@@ -11,11 +11,6 @@ Nationality: Indonesian (Singapore PR)
 <!-- ABOUT Section Starts -->
 ### ABOUT
 <!-- Add link to your picture -->
-
-
-<img src="https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/Picture.jpg" alt="alt text" width="200" height="270">
-
-
 <!-- Add your details -->
 
 I am __Markus Aditya Surya Widjaja__, a data analyst trainee/ civil engineer with a newfound interest for an effective and insightful data visualisation. Looking to enter into a more digital and technology-driven field which may or may not be related to civil engineering. I'm a fast and independent learner with experience in project management and capabilities to offer a pragmatic and optimal solution.
@@ -62,11 +57,10 @@ Dataset: Kaggle.com<br>
 
 The charts below visualise the data of F1 races between 2017 season to 2021 season (up to Austrian GP) by using a slicer for race year. The dataset itself contains race results from 1950 to 2021. <br>
 
-![F1 Most Exciting Circuit](https://user-images.githubusercontent.com/85226680/125762654-1b128909-6fc4-498d-9160-7035934723f8.png)
-![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/F1%20Most%20Exciting%20Circuit.png)
-![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/Team%20wins%20per%20circuit.png)
-![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/Driver%20wins%20per%20circuit.png)
-![alt text](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/blob/main/F1/Points%20won%20per%20circuit.png)
+![F1 Most Exciting Circuit V2](https://user-images.githubusercontent.com/85226680/125777723-79830ff1-8586-40fd-b14d-00d635346acd.png)
+![Team wins per circuit V2](https://user-images.githubusercontent.com/85226680/125777717-0f8991d9-4063-4576-b977-6e780bde99c5.png)
+![Driver wins per circuit V2](https://user-images.githubusercontent.com/85226680/125777719-485835fc-cae2-48d8-8c6a-70ee94317f99.png)
+![Shares of points won per circuit](https://user-images.githubusercontent.com/85226680/125777713-4aaf1cd3-603b-400b-bb72-465d42f3d944.png)
 
 Learning points: Wrangling the data frame too much makes the visualisation in Power BI inflexible as the relation between the aggregated values and the different IDs is lost
 On the other hand, Power BI is unable to sort values within partition/groupby column, as the 'Top N' filter function is applied before the data aggregation in the chart i.e. instead of showing the constructor with the highest number of win (Top N=1) for each circuit, it is showing the constructor with the highest number of win (Top N=1) throughout ALL circuits and then, its number of win for each respective circuit.
