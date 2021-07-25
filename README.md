@@ -51,7 +51,17 @@ I'm doing some data related projects to slowly build my portfolio.
 #### Visualisation and data wrangling project
 
 ###### Formula One: Track & Thrill
-A simple passion project on visualising Formula One data to find out where the most exciting race locations are. For fans, teams and drivers alike.<br>
+A simple passion project on visualising Formula One data to find out where the most exciting race locations are. For fans, teams and drivers alike. A simple dashboard that can serve a starting point to asnwer several business questions such as:<br>
+1. Where should the next Formula One race be held to attract the most viewership and revenue?
+2. Which circuit need modification to improve the excitement factor of the race?
+3. How should we plan the race schedule for the season? 
+4. How do we plan our coverage/filler content? Which teams or driver should we focus on in each event?<br>
+
+For the fans, it may give them some insights on:
+1. On which circuits can I see more actions? Which races should I watch?
+2. Which teams have the most competitive cars? On which circuits?
+3. Who are the drivers to look out for?
+
 Tools used: Python (Pandas), Power BI<br>
 Dataset: Kaggle.com<br>
 
@@ -62,6 +72,12 @@ The charts below visualise the data of F1 races between 2017 season to 2021 seas
 ![Driver wins per circuit V2](https://user-images.githubusercontent.com/85226680/125777719-485835fc-cae2-48d8-8c6a-70ee94317f99.png)
 ![Shares of points won per circuit](https://user-images.githubusercontent.com/85226680/125777713-4aaf1cd3-603b-400b-bb72-465d42f3d944.png)
 
+Some guiding questions can be asked to set a direction for a continuation of this project:
+1. How does pitstop/racing incident affect the ranking?
+2. How does the racing weather/ time of the season affect the ranking?
+3. Deep dive on each circuit characteristics. How do we profile the circuits? Length/number of straights? slow/medium/fast corners? Length and location of pitlanes? Elevation of tracks?
+4. How well does the number of overtakes correlates with the number of viewerships/ticket sales?
+
 Learning points: Wrangling the data frame too much makes the visualisation in Power BI inflexible as the relation between the aggregated values and the different IDs is lost
 On the other hand, Power BI is unable to sort values within partition/groupby column, as the 'Top N' filter function is applied before the data aggregation in the chart i.e. instead of showing the constructor with the highest number of win (Top N=1) for each circuit, it is showing the constructor with the highest number of win (Top N=1) throughout ALL circuits and then, its number of win for each respective circuit.
 
@@ -70,7 +86,7 @@ On the other hand, Power BI is unable to sort values within partition/groupby co
 <!-- PROJECTS Section Ends -->
 
 <!-- EXPERIENCE Section Starts -->
-### EXPERIENCE
+### WORK EXPERIENCE
 <!-- Add your details -->
 ##### Web Structures Pte Ltd
 Structural Engineer<br>
