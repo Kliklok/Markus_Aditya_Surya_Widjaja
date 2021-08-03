@@ -110,6 +110,7 @@ Bootstrap resampling is also done with size of 40000 and 1000 samples for each g
 
 ![Retention Rate Distribution](https://user-images.githubusercontent.com/85226680/128043667-8bec1fa9-06ee-4d3c-868e-903b3d95e034.png)
 
+[Click here to view codebase, charts and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/main/Cookie%20Cats)
 
 <!-- PROJECTS Section Ends -->
 
