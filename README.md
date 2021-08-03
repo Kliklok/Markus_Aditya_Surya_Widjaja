@@ -13,7 +13,7 @@ Nationality: Indonesian (Singapore PR)
 <!-- Add link to your picture -->
 <!-- Add your details -->
 
-I am __Markus Aditya Surya Widjaja__, a data analyst trainee/ civil engineer with a newfound interest for an effective and insightful data visualisation. Looking to enter into a more digital and technology-driven field which may or may not be related to civil engineering. I'm a fast and independent learner with experience in project management and capabilities to offer a pragmatic and optimal solution.
+I am __Markus Aditya Surya Widjaja__, a data analyst trainee/ civil engineer with a newfound interest for data analytics. Looking to enter into a more digital and technology-driven field especially those related to science and engineering. An independent and fast learner who is experienced in handling multiple tasks, able to think critically and comfortable with communicating technical content to laymen. Believe in comprehensive problem understanding and clear communication as key drivers of success.
 
 <!-- Add link to the sections -->
 [Education](#education) <br>
@@ -35,7 +35,7 @@ Mar 2021- Sep 2021: 6 months (Ongoing)
 ##### M.Sc. in Civil Engineering at National University of Singapore (Transportation Engineering Specialisation)			   
 Aug 2018 – Jul 2019: 1 year
 -	Transportation demand forecasting methods
--	Intermodal Transport Routing and Introduction to VRPs
+-	Basic understanding of Vehicular Routing Problem algorithms (VRP)
 
 ##### B.Eng (Merit) in Civil Engineering at National University of Singapore	                
 Aug 2012 – Jul 2016: 4 years
@@ -83,10 +83,38 @@ On the other hand, Power BI is unable to sort values within partition/groupby co
 
 [Click here to view codebase, pbix file and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/Projects/F1)
 
+#### A/B testing mini project
+
+###### Cookie Cats Retention Strategy
+A mini project done during the RISE program to test the best level for setting the gate of the game. Dataset contained user data with number of rounds played and retention status. <br>
+
+Brief: Cookie Cats is a popular mobile puzzle game where players complete a task and level up. While leveling up, players encounter gates which force players to wait before continue playing or make in game purchases. <br>
+Business Problem: Revenue from in-game purchases has been declining over time and total number of active players declining, with players uninstalling the game after playing for a few days.<br>
+Hypothesis: players are churning because the first gate encounter at level 30 is too early. A/B test is performed comparing 2 groups of players, one encounter the gate at level 30 and the other, at level 40. <br>
+
+Tools used: Python (Pandas, matplotlib, numpy)
+Dataset: Kaggle.com
+
+The two groups are defined as Group A (gate at Level 30) and Group B (Gate at level 40). The sum of number of rounds of game played are checked for normality first by plotting the histogram and qq plot as shown below and shapiro test. All plots and tests indicate that the data is non-normal.
+![Normality Checks](https://user-images.githubusercontent.com/85226680/128043661-8f027583-6a60-4b39-b751-1b7f0cba9343.png)
+
+Both groups are then tested for equality of variances with levene test, which shows that the variances are equal. The 2 groups is then tested with mann-whitney U test for 2-tailed test which yield the result below
+
+![Twotailedtest](https://user-images.githubusercontent.com/85226680/128043671-c4d88c57-b40f-415f-8c1a-2f97fe40bcad.png)
+
+Notice that with the 2 tailed test, H1 is rejected. Which means that changing the gate to level 40 would not yield any meaningful improvement. The 2 groups are then also tested for 1-tailed test as the mean of sum of rounds of game played of group A (gate 30) is noticably higher than that of group B (gate 40). Here we can see that for 1 tailed test, we can see that H1 is accepted and that putting the gate at level 30 would give a higher sum of rounds of game played than that of group B.
+
+![Onetailedtest](https://user-images.githubusercontent.com/85226680/128043665-8792653e-b971-4063-8dbd-0d56db838d39.png)
+
+Bootstrap resampling is also done with size of 40000 and 1000 samples for each group to further remove outliers and verify the significance test result above. We can clearly see below that the mean retention rate at both 1 day and 7 day are higher in group A than that of group B
+
+![Retention Rate Distribution](https://user-images.githubusercontent.com/85226680/128043667-8bec1fa9-06ee-4d3c-868e-903b3d95e034.png)
+
+
 <!-- PROJECTS Section Ends -->
 
 <!-- EXPERIENCE Section Starts -->
-### WORK EXPERIENCE
+### EXPERIENCE
 <!-- Add your details -->
 ##### Web Structures Pte Ltd
 Structural Engineer<br>
@@ -106,8 +134,8 @@ The lead engineer responsible for visualisation design of construction sequence 
 <!-- FEATURED Section Starts -->
 ## SKILLS
 <!-- Add your details -->
-##### Computer skills 
-TSQL, Python (Pandas, Scikit), Power BI
+##### Data Analytics Skills 
+T-SQL, Python (Pandas, Scikit), Power BI, Statistics, Data Wrangling, Data Reporting, Storytelling, Dashboard Design, Machine Learning, A/B Testing, Hypothesis Testing
 ##### Engineering Software 
 AutoCAD, Etabs, SAFE, Tedds, SAP2000, PLAXIS 2D, SIDRA, VISUM
 ##### Media Skills
