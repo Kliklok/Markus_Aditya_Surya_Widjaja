@@ -13,7 +13,7 @@ Nationality: Indonesian (Singapore PR)
 <!-- Add link to your picture -->
 <!-- Add your details -->
 
-I am __Markus Aditya Surya Widjaja__, a data analyst trainee/ civil engineer with a newfound interest for data analytics. Looking to enter into a more digital and technology-driven field especially those related to science and engineering. An independent and fast learner who is experienced in handling multiple tasks, able to think critically and comfortable with communicating technical content to laymen. Believe in comprehensive problem understanding and clear communication as key drivers of success.
+I am __Markus Aditya Surya Widjaja__, a Data analyst trainee and a civil engineer looking for a data analyst position. Currently enhancing my mastery in data related skills by initiating personal projects while building a portfolio. Experienced in handling multiple tasks, able to think critically and analytically and comfortable with communicating technical content to laymen. Able to grasp new concepts and skills quickly.
 
 <!-- Add link to the sections -->
 [Education](#education) <br>
@@ -28,7 +28,8 @@ I am __Markus Aditya Surya Widjaja__, a data analyst trainee/ civil engineer wit
 ### EDUCATION
 <!-- Add your details -->
 ##### RISE by BCG (Business and Data Analytics Specialisation)                       
-Mar 2021- Sep 2021: 6 months (Ongoing)
+Mar 2021- Sep 2021: 6 months (Graduated with Merit) [Credentials here](https://www.credly.com/badges/e4234328-e7b4-461d-953f-8fd0bc6a5f24?source=linked_in_profile)
+- Completed Capstone project with Distinction
 - Introduction to TSQL, Python (Pandas, Scikit), PowerBI
 - Structured Problem Solving and Agile Framework
 
@@ -85,7 +86,7 @@ On the other hand, Power BI is unable to sort values within partition/groupby co
 
 #### A/B testing mini project
 
-###### Cookie Cats Retention Strategy
+###### Cookie Cats Retention Strategy (TOP 2 group [credentials here](https://www.credly.com/badges/21619132-967c-404c-a03a-6744faa1df8a?source=linked_in_profile))
 A mini project done during the RISE program to test the best level for setting the gate of the game. Dataset contained user data with number of rounds played and retention status. <br>
 
 Brief: Cookie Cats is a popular mobile puzzle game where players complete a task and level up. While leveling up, players encounter gates which force players to wait before continue playing or make in game purchases. <br>
@@ -112,6 +113,19 @@ Bootstrap resampling is also done with size of 40000 and 1000 samples for each g
 
 [Click here to view codebase, charts and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/main/Cookie%20Cats)
 
+#### HR Analytics (BCG RISE Capstone Project)
+
+###### Improving visibility and talent management on a multinational mining company (completed with distinction [credentials here](https://www.credly.com/badges/182236de-b950-4c20-96e9-c66c3e3851ae?source=linked_in_profile))
+A final capstone project done during the RISE program to propose solutions to better manage the organisation and provide efficient recommendation to managers on managing employees <br>
+
+Brief: HR leadership has less visibility in the current workforce management process, which caused high dependency on line managers and individual teams. The client is looking for: <br>
+1. Visualisation of talent database to enable efficient talent conversation <br>
+2. Employee profiling to facilitate talent development and management <br>
+
+Tools used: Python (Pandas, scipy, etc.), Microsoft Power BI
+
+As the project involves real client and employee data, native files and datasets are not shared.
+
 <!-- PROJECTS Section Ends -->
 
 <!-- EXPERIENCE Section Starts -->
@@ -122,21 +136,32 @@ Structural Engineer<br>
 Aug-2019 to Mar-2021: 1 year 7 Months
 Project highlights: HDB Bukit Panjang N6C15, SIT New Punggol Campus
 
-Managed various aspects of different projects which include structural RC and steel analysis and design, underground structure and foundation design, design reports and drawings production and compilation, external works submission, conservation building Addition & Alteration (A&A) works and general project coordination with client, architect and contractor. 
+•	Obtained approval from 5 authority agencies (LTA, PUB, HDB, BCA and NParks) for the design, coordination of external drainage and road works.<br>
+•	Facilitated 5 concurrent projects in carrying out ad-hoc design items and report consolidation.<br>
+•	Clawed back a 2-months delay of RFI and RFA submission response by generating key metrics, providing visibility and maintaining the submission data.<br>
+•	Started the detailed design process for the Addition and Alteration (A&A) works of a conservation building which includes the foundation strengthening in preparation for authority submission.<br>
+•	Accommodated Qualified Person (QP) for the inspection, verification design, drawing production and report submission of retention works to BCA.<br>
+•	Maintained coordination with client, architect, contractor, M&E consultants and project site staff to generate solutions for site issues.<br>
 
 ##### KTC Civil Engineering & Construction Pte Ltd
 Project Engineer<br>
 Aug-2016 to Jun-2018: 1 year 11 Months
 Project highlights: LTA Contract T312 Construction of Sungei Bedok Station & Tunnel for Thomson-East Coast Line – Contract Value $418 million
 
-The lead engineer responsible for visualisation design of construction sequence proposals and presentations, the drawing submission tracking lists which was essential in transforming a 2 months submission delay into a 1 month excess supply of approved drawings, the planning and development of utility diversion proposals to reduce utility gaps from 26 to 11 that is critical to excavation safety, coordination of fabrication drawings from 10 different subcontractors and the material reallocation study which reduced wastage and removed 3 months procurement lead time out of project critical path.
+•	Transformed a 2-months submission delay into a 1-month excess supply of approved drawings by initiating and maintaining drawing submission tracking lists.<br>
+•	Reduced utility gaps from 26 to 11 and improve the excavation safety by spearheading the planning and development of a diversion proposal to 4 utility agencies (Singtel, PUB water, PUB sewer and SP).<br>
+•	Removed 3 months procurement lead time out from potential project critical path and reduce wastage by identifying the opportunity for material reallocations.<br>
+•	Designed visualisation for construction sequence proposal and presentation.<br>
+•	Managed the production and development of fabrication drawings with more than 10 subcontractors via weekly alignment meetings to ensure efficient site coordination and timely approval.<br>
+•	Administered the development and coordination of design matters which consist of deep foundation elements, deep excavation, drain diversion and traffic diversion for site feasibility.<br>
+
 <!-- EXPERIENCE Section Ends -->
 
 <!-- FEATURED Section Starts -->
 ## SKILLS
 <!-- Add your details -->
 ##### Data Analytics Skills 
-T-SQL, Python (Pandas, Scikit), Power BI, Statistics, Data Wrangling, Data Reporting, Storytelling, Dashboard Design, Machine Learning, A/B Testing, Hypothesis Testing
+SQL, Python (Pandas, Scikit), Power BI, Statistics, Data Wrangling, Data Reporting, Storytelling, Dashboard Design, Machine Learning, A/B Testing, Hypothesis Testing
 ##### Engineering Software 
 AutoCAD, Etabs, SAFE, Tedds, SAP2000, PLAXIS 2D, SIDRA, VISUM
 ##### Media Skills
