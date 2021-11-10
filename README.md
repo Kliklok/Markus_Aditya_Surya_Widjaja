@@ -49,6 +49,71 @@ Aug 2012 – Jul 2016: 4 years
 <!-- Add your details -->
 I'm doing some data related projects to slowly build my portfolio.
 
+#### Multivariate Time Series Prediction
+
+###### Market Price Prediction
+A simple project on predicting the market value of Japan Yen (JPY) using VARMA and Long Short-Term Memory (LSTM) deep-learning model.<br>
+
+Brief: Predicting the adjusted close values of "JPY=X" for the next 5 days, using the market data of several funds and other currency from the last 10 years (2011 to September 2021): <br>
+
+Tools used: Python (Pandas, scipy, keras, etc.) <br>
+
+The market data are checked for correlation with JPY data and are converted to their principal components with PCA as shown below <br>
+![PCA](https://user-images.githubusercontent.com/85226680/141155931-93b6c064-1402-484b-b919-772aa070ee15.png)
+
+The data from 2011 to 2018 is useed to train the model and the remaining data from 2019 to 2021 is used as test set. The VARMAX model  result is shown below with rmse of 2.336. <br>
+![VARMAX](https://user-images.githubusercontent.com/85226680/141155933-b6393b93-a47b-449f-91da-ede4ac1faab2.png)
+![VARMAX2](https://user-images.githubusercontent.com/85226680/141155938-5d6fc59d-29b1-4593-8d4a-a2e4c7a9da0f.png)<br>
+
+Using the same train and test set, the LSTM model is used with SGD optimiser. This model improves the rmse to 1.97.<br>
+![LSTM](https://user-images.githubusercontent.com/85226680/141155928-6b6cf695-f3b7-468e-bc76-ae826c06eb12.png)<br>
+The model is then used to predict the values for the next 5 days. <br>
+![LSTM prediction](https://user-images.githubusercontent.com/85226680/141155920-5184c461-f2f1-4064-aaa9-9d91e69a913e.png)<br>
+
+[Click here to view codebase, charts and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/main/Multivariate%20Prediction)
+
+#### HR Analytics (BCG RISE Capstone Project)
+
+###### Improving visibility and talent management on a multinational mining company (completed with distinction [credentials here](https://www.credly.com/badges/182236de-b950-4c20-96e9-c66c3e3851ae?source=linked_in_profile))
+A final capstone project done during the RISE program to propose solutions to better manage the organisation and provide efficient recommendation to managers on managing employees <br>
+
+Brief: HR leadership has less visibility in the current workforce management process, which caused high dependency on line managers and individual teams. The client is looking for: <br>
+1. Visualisation of talent database to enable efficient talent conversation <br>
+2. Employee profiling to facilitate talent development and management <br>
+
+Tools used: Python (Pandas, scipy, etc.), Microsoft Power BI
+
+As the project involves real client and employee data, native files and datasets are not shared.
+
+#### A/B testing mini project
+
+###### Cookie Cats Retention Strategy (TOP 2 group [credentials here](https://www.credly.com/badges/21619132-967c-404c-a03a-6744faa1df8a?source=linked_in_profile))
+A mini project done during the RISE program to test the best level for setting the gate of the game. Dataset contained user data with number of rounds played and retention status. <br>
+
+Brief: Cookie Cats is a popular mobile puzzle game where players complete a task and level up. While leveling up, players encounter gates which force players to wait before continue playing or make in game purchases. <br>
+Business Problem: Revenue from in-game purchases has been declining over time and total number of active players declining, with players uninstalling the game after playing for a few days.<br>
+Hypothesis: players are churning because the first gate encounter at level 30 is too early. A/B test is performed comparing 2 groups of players, one encounter the gate at level 30 and the other, at level 40. <br>
+
+Tools used: Python (Pandas, matplotlib, numpy)
+Dataset: Kaggle.com
+
+The two groups are defined as Group A (gate at Level 30) and Group B (Gate at level 40). The sum of number of rounds of game played are checked for normality first by plotting the histogram and qq plot as shown below and shapiro test. All plots and tests indicate that the data is non-normal.
+![Normality Checks](https://user-images.githubusercontent.com/85226680/128043661-8f027583-6a60-4b39-b751-1b7f0cba9343.png)
+
+Both groups are then tested for equality of variances with levene test, which shows that the variances are equal. The 2 groups is then tested with mann-whitney U test for 2-tailed test which yield the result below
+
+![Twotailedtest](https://user-images.githubusercontent.com/85226680/128043671-c4d88c57-b40f-415f-8c1a-2f97fe40bcad.png)
+
+Notice that with the 2 tailed test, H1 is rejected. Which means that changing the gate to level 40 would not yield any meaningful improvement. The 2 groups are then also tested for 1-tailed test as the mean of sum of rounds of game played of group A (gate 30) is noticably higher than that of group B (gate 40). Here we can see that for 1 tailed test, we can see that H1 is accepted and that putting the gate at level 30 would give a higher sum of rounds of game played than that of group B.
+
+![Onetailedtest](https://user-images.githubusercontent.com/85226680/128043665-8792653e-b971-4063-8dbd-0d56db838d39.png)
+
+Bootstrap resampling is also done with size of 40000 and 1000 samples for each group to further remove outliers and verify the significance test result above. We can clearly see below that the mean retention rate at both 1 day and 7 day are higher in group A than that of group B
+
+![Retention Rate Distribution](https://user-images.githubusercontent.com/85226680/128043667-8bec1fa9-06ee-4d3c-868e-903b3d95e034.png)
+
+[Click here to view codebase, charts and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/main/Cookie%20Cats)
+
 #### Visualisation and data wrangling project
 
 ###### Formula One: Track & Thrill
@@ -83,48 +148,6 @@ Learning points: Wrangling the data frame too much makes the visualisation in Po
 On the other hand, Power BI is unable to sort values within partition/groupby column, as the 'Top N' filter function is applied before the data aggregation in the chart i.e. instead of showing the constructor with the highest number of win (Top N=1) for each circuit, it is showing the constructor with the highest number of win (Top N=1) throughout ALL circuits and then, its number of win for each respective circuit.
 
 [Click here to view codebase, pbix file and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/Projects/F1)
-
-#### A/B testing mini project
-
-###### Cookie Cats Retention Strategy (TOP 2 group [credentials here](https://www.credly.com/badges/21619132-967c-404c-a03a-6744faa1df8a?source=linked_in_profile))
-A mini project done during the RISE program to test the best level for setting the gate of the game. Dataset contained user data with number of rounds played and retention status. <br>
-
-Brief: Cookie Cats is a popular mobile puzzle game where players complete a task and level up. While leveling up, players encounter gates which force players to wait before continue playing or make in game purchases. <br>
-Business Problem: Revenue from in-game purchases has been declining over time and total number of active players declining, with players uninstalling the game after playing for a few days.<br>
-Hypothesis: players are churning because the first gate encounter at level 30 is too early. A/B test is performed comparing 2 groups of players, one encounter the gate at level 30 and the other, at level 40. <br>
-
-Tools used: Python (Pandas, matplotlib, numpy)
-Dataset: Kaggle.com
-
-The two groups are defined as Group A (gate at Level 30) and Group B (Gate at level 40). The sum of number of rounds of game played are checked for normality first by plotting the histogram and qq plot as shown below and shapiro test. All plots and tests indicate that the data is non-normal.
-![Normality Checks](https://user-images.githubusercontent.com/85226680/128043661-8f027583-6a60-4b39-b751-1b7f0cba9343.png)
-
-Both groups are then tested for equality of variances with levene test, which shows that the variances are equal. The 2 groups is then tested with mann-whitney U test for 2-tailed test which yield the result below
-
-![Twotailedtest](https://user-images.githubusercontent.com/85226680/128043671-c4d88c57-b40f-415f-8c1a-2f97fe40bcad.png)
-
-Notice that with the 2 tailed test, H1 is rejected. Which means that changing the gate to level 40 would not yield any meaningful improvement. The 2 groups are then also tested for 1-tailed test as the mean of sum of rounds of game played of group A (gate 30) is noticably higher than that of group B (gate 40). Here we can see that for 1 tailed test, we can see that H1 is accepted and that putting the gate at level 30 would give a higher sum of rounds of game played than that of group B.
-
-![Onetailedtest](https://user-images.githubusercontent.com/85226680/128043665-8792653e-b971-4063-8dbd-0d56db838d39.png)
-
-Bootstrap resampling is also done with size of 40000 and 1000 samples for each group to further remove outliers and verify the significance test result above. We can clearly see below that the mean retention rate at both 1 day and 7 day are higher in group A than that of group B
-
-![Retention Rate Distribution](https://user-images.githubusercontent.com/85226680/128043667-8bec1fa9-06ee-4d3c-868e-903b3d95e034.png)
-
-[Click here to view codebase, charts and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/main/Cookie%20Cats)
-
-#### HR Analytics (BCG RISE Capstone Project)
-
-###### Improving visibility and talent management on a multinational mining company (completed with distinction [credentials here](https://www.credly.com/badges/182236de-b950-4c20-96e9-c66c3e3851ae?source=linked_in_profile))
-A final capstone project done during the RISE program to propose solutions to better manage the organisation and provide efficient recommendation to managers on managing employees <br>
-
-Brief: HR leadership has less visibility in the current workforce management process, which caused high dependency on line managers and individual teams. The client is looking for: <br>
-1. Visualisation of talent database to enable efficient talent conversation <br>
-2. Employee profiling to facilitate talent development and management <br>
-
-Tools used: Python (Pandas, scipy, etc.), Microsoft Power BI
-
-As the project involves real client and employee data, native files and datasets are not shared.
 
 <!-- PROJECTS Section Ends -->
 
