@@ -29,12 +29,13 @@ I am __Markus Aditya Surya Widjaja__, a Data analyst trainee and a civil enginee
 <!-- Add your details -->
 ##### RISE by BCG (Business and Data Analytics Specialisation)                       
 Mar 2021- Sep 2021: 6 months (Graduated with Merit) [Credentials here](https://www.credly.com/badges/e4234328-e7b4-461d-953f-8fd0bc6a5f24?source=linked_in_profile)
-- Completed Capstone project with Distinction
-- Introduction to TSQL, Python (Pandas, Scikit), PowerBI
-- Structured Problem Solving and Agile Framework
+-	Data manipulation/wrangling, analytics and visualisation
+-	SQL, Python (Pandas, Scikit), PowerBI
+-	Machine Learning, Capstone project completed with distinction
 
 ##### M.Sc. in Civil Engineering at National University of Singapore (Transportation Engineering Specialisation)			   
 Aug 2018 – Jul 2019: 1 year
+-	Specialisation in Transportation Engineering 
 -	Transportation demand forecasting methods
 -	Basic understanding of Vehicular Routing Problem algorithms (VRP)
 
