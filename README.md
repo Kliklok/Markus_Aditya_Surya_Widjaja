@@ -66,10 +66,10 @@ The data from 2011 to 2018 is useed to train the model and the remaining data fr
 ![VARMAX](https://user-images.githubusercontent.com/85226680/141155933-b6393b93-a47b-449f-91da-ede4ac1faab2.png)
 ![VARMAX2](https://user-images.githubusercontent.com/85226680/141155938-5d6fc59d-29b1-4593-8d4a-a2e4c7a9da0f.png)<br>
 
-Using the same train and test set, the LSTM model is used with SGD optimiser. This model improves the rmse to 1.97.<br>
-![LSTM](https://user-images.githubusercontent.com/85226680/141155928-6b6cf695-f3b7-468e-bc76-ae826c06eb12.png)<br>
+Using the same train and test set, the LSTM model is used with SGD optimiser. This model improves the rmse to 1.06.<br>
+![LSTM](https://user-images.githubusercontent.com/85226680/142771485-6e6ad59e-5ec9-4118-87f2-723dc5982459.png)<br>
 The model is then used to predict the values for the next 5 days. <br>
-![LSTM prediction](https://user-images.githubusercontent.com/85226680/141155920-5184c461-f2f1-4064-aaa9-9d91e69a913e.png)<br>
+![LSTM Prediction](https://user-images.githubusercontent.com/85226680/142771484-31a16a01-02a3-42be-aa35-5ac233ed8b23.png)<br>
 
 [Click here to view codebase, charts and csv datasets](https://github.com/Kliklok/Markus_Aditya_Surya_Widjaja/tree/main/Multivariate%20Prediction)
 
