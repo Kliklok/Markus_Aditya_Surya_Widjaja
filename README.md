@@ -13,7 +13,7 @@ Nationality: Indonesian (Singapore PR)
 <!-- Add link to your picture -->
 <!-- Add your details -->
 
-I am __Markus Aditya Surya Widjaja__, a Data analyst trainee and a civil engineer looking for a data analyst position. Currently enhancing my mastery in data related skills by initiating personal projects while building a portfolio. Experienced in handling multiple tasks, able to think critically and analytically and comfortable with communicating technical content to laymen. Able to grasp new concepts and skills quickly.
+I am __Markus Aditya Surya Widjaja__, a Data analyst and civil engineer who advocates the application of data analytics and automation in the construction industry. Passionate in exploring machine learning use-cases for the construction business. Experienced in handling multiple tasks, able to think critically and analytically and comfortable with communicating technical content to laymen. Able to grasp new concepts and skills quickly.
 
 <!-- Add link to the sections -->
 [Education](#education) <br>
@@ -155,6 +155,16 @@ On the other hand, Power BI is unable to sort values within partition/groupby co
 <!-- EXPERIENCE Section Starts -->
 ### EXPERIENCE
 <!-- Add your details -->
+##### Obayashi Corporation Asia-Pacific Regional Headquarters (APRHQ)
+Data Management & Analytics Assistant Manager<br>						  
+Jan 2022 – Present
+
+•	Spearheaded the data pipeline setup for monthly project reports for than 30 ongoing APAC projects under 5 different overseas subsidiaries as the first step towards reporting automation and analytics.Led the ongoing study to improve the data collection workflow for multiple pipelines.
+•	Led the development of Power BI reports and dashboards to transform and digitalise the company's way of monitoring regional projects.
+•	Initiated trials to improve the data collection workflow for multiple pipelines.
+•	Collaborated with project management software provider on customising multiple Power BI reports to ensure effective data presentation on site.
+•	Created multiple custom visualisations in Power BI using Python language to suit business needs.
+
 ##### Web Structures Pte Ltd
 Structural Engineer<br>
 Aug-2019 to Mar-2021: 1 year 7 Months
@@ -185,7 +195,7 @@ Project highlights: LTA Contract T312 Construction of Sungei Bedok Station & Tun
 ## SKILLS
 <!-- Add your details -->
 ##### Data Analytics Skills 
-SQL, Python (Pandas, Scikit), Power BI, Statistics, Data Wrangling, Data Reporting, Storytelling, Dashboard Design, Machine Learning, A/B Testing, Hypothesis Testing
+SQL, Python (Pandas, Scikit), Power BI, Power Query, Power Automate, Statistics, Data Wrangling, Data Reporting, Storytelling, Dashboard Design, Machine Learning, A/B Testing, Hypothesis Testing
 ##### Engineering Software 
 AutoCAD, Etabs, SAFE, Tedds, SAP2000, PLAXIS 2D, SIDRA, VISUM
 ##### Media Skills
